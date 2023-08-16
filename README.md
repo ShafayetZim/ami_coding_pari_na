@@ -1,5 +1,4 @@
 # ami_coding_pari_na
-a web application
 
 <b>Project Installation in Django Python:</b>
 
@@ -39,7 +38,7 @@ That's it! You now have a web application. <br />
 Remember to run the server using python manage.py runserver and access the application at <br> 
 Register: http://localhost:8000/accounts/register/ <br />
 Login: http://localhost:8000/accounts/login/ <br />
-Search: http://localhost:8000/khoj_search/ <br />
+Search: http://localhost:8000/khoj_search/ <br /><br>
 The API endpoints will be available at http://localhost:8000/api/get_input_values/ <br>
 To check, you can use Postman to make a POST request to API endpoint. 
 In Postman, select the "POST" request type and set the URL to http://localhost/api/get_input_values/. 
