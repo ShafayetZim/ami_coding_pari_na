@@ -35,7 +35,7 @@ Windows: python -m venv environment_name
 -> Linux: python3 manage.py runserver
 
 That's it! You now have a web application. <br />
-Remember to run the server using python manage.py runserver and access the application at <br> 
+Remember to run the server using 'python manage.py runserver' and access the application at <br> 
 Register: http://localhost:8000/accounts/register/ <br />
 Login: http://localhost:8000/accounts/login/ <br />
 Search: http://localhost:8000/khoj_search/ <br /><br>
@@ -46,7 +46,7 @@ In the request body, choose the "raw" option and set the content type to "JSON (
 then provide the parameters as JSON data: <br>
 { <br>
   "start_datetime": "2023-01-01 00:00:00", <br>
-  "end_datetime": "2023-08-16 00:00:00", <br>
+  "end_datetime": "2023-08-17 00:00:00", <br>
   "user_id": 1 <br>
 } <br>
 
