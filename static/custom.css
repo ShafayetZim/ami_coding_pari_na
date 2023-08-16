@@ -1,0 +1,27 @@
+/* Add your custom styles here */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.register-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+    text-align: center;
+}
+
+.register-form button {
+    width: 100%;
+}

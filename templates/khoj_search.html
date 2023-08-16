@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="">
+    <h2>Khoj the Search</h2>
+    <form method="post">
+      {% csrf_token %}
+      <label for="input_values">Input Values (comma-separated integers):</label><br>
+      <input type="text" name="input_values" required><br>
+      <label for="search_value">Search Value:</label><br>
+      <input type="number" name="search_value" required><br><br>
+      <button type="submit">Khoj</button>
+    </form>
+    <br>
+
+    {% if is_search_value_found is not None %}
+      <p>Output: {{ is_search_value_found }}</p>
+    {% endif %}
+  </div>
+{% endblock %}
